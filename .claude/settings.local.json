@@ -1,0 +1,16 @@
+{
+  "env": {
+    "PATH": "/opt/homebrew/anaconda3/envs/claude-e2e/bin:/opt/homebrew/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin",
+    "CONDA_DEFAULT_ENV": "claude-e2e",
+    "CONDA_PREFIX": "/opt/homebrew/anaconda3/envs/claude-e2e"
+  },
+  "permissions": {
+    "allow": [
+      "Skill(update-config)",
+      "Bash(conda config *)",
+      "Bash(conda run *)",
+      "Bash(conda env *)",
+      "Bash(python *)"
+    ]
+  }
+}

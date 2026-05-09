@@ -1,0 +1,9 @@
+chromadb
+sentence-transformers
+anthropic
+mcp
+typer
+rich
+pytest
+streamlit
+python-dotenv
