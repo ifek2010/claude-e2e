@@ -41,7 +41,7 @@ python -m src.mcp_server
 ## Architecture
 
 ```
-short-story-qa/
+claude-e2e/
 ├── corpus/          # Raw .txt stories (author_title.txt naming)
 ├── src/
 │   ├── ingest.py    # Gutenberg header/footer stripping + chunking + embedding + ChromaDB storage
