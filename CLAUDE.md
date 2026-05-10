@@ -74,3 +74,15 @@ claude-e2e/
 
 API keys go in `.env` (never committed). Load with `python-dotenv`:
 - `ANTHROPIC_API_KEY`
+
+## Security constraints
+
+- Never push to any remote git repository (`git push` is forbidden without explicit user confirmation each time)
+- Never commit `.env` files or any file containing API keys, secrets, or credentials
+- Never modify `.gitignore` in a way that would expose secrets
+- Never run `git push --force` or any destructive git operation
+- Never create, close, or comment on GitHub PRs or issues without explicit user approval
+- Do not read files outside this project directory
+- Do not make HTTP requests to external services except the Anthropic API and HuggingFace (for model downloads)
+- Do not expose `ANTHROPIC_API_KEY` or other env vars in logs, output, or code
+- Do not install packages not listed in `requirements.txt` without asking first
