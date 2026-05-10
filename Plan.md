@@ -18,7 +18,7 @@ A portfolio project demonstrating **Python**, **LLM**, **RAG**, **Vector Databas
 
 Lock these on day one and resist the urge to swap:
 
-- **Language:** Python 3.10+
+- **Language:** Python 3.12+
 - **Vector DB:** ChromaDB (simplest local-first option)
 - **Embeddings:** `sentence-transformers` with `all-MiniLM-L6-v2`
 - **LLM:** Anthropic Claude API (or OpenAI if you prefer)
